@@ -1,0 +1,13 @@
+annotated-types==0.7.0
+asgiref==3.11.1
+Django==6.0.4
+django-cors-headers==4.9.0
+django-ninja==1.6.2
+django-unfold==0.92.0
+pillow==12.2.0
+pydantic==2.13.3
+pydantic_core==2.46.3
+python-dotenv==1.2.2
+sqlparse==0.5.5
+typing-inspection==0.4.2
+typing_extensions==4.15.0

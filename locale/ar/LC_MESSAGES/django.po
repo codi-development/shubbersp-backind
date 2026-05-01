@@ -1,0 +1,341 @@
+# Arabic translations for Shubber SB Admin
+# Copyright (C) 2026 Shubber SB
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Shubber SB 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-01 12:22+0300\n"
+"PO-Revision-Date: 2026-05-01 12:22+0300\n"
+"Last-Translator: Shubber SB Team\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: config/settings.py
+msgid "English"
+msgstr "الإنجليزية"
+
+#: config/settings.py
+msgid "العربية"
+msgstr "العربية"
+
+#: config/settings.py
+msgid "Administration Panel"
+msgstr "لوحة الإدارة"
+
+#: config/settings.py
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: config/settings.py
+msgid "Home"
+msgstr "الرئيسية"
+
+#: config/settings.py
+msgid "Content Management"
+msgstr "إدارة المحتوى"
+
+#: config/settings.py portfolio/models.py
+msgid "News"
+msgstr "الأخبار"
+
+#: config/settings.py
+msgid "Gallery"
+msgstr "المعرض"
+
+#: config/settings.py portfolio/models.py
+msgid "Partners"
+msgstr "الشركاء"
+
+#: config/settings.py portfolio/models.py
+msgid "Careers"
+msgstr "الوظائف"
+
+#: config/settings.py
+msgid "Job Positions"
+msgstr "المناصب الوظيفية"
+
+#: config/settings.py
+msgid "Applications"
+msgstr "طلبات التوظيف"
+
+#: config/settings.py
+msgid "Messages"
+msgstr "الرسائل"
+
+#: config/settings.py contact/models.py
+msgid "Contact Messages"
+msgstr "رسائل التواصل"
+
+#: config/settings.py
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: config/settings.py
+msgid "Users"
+msgstr "المستخدمين"
+
+#: config/settings.py
+msgid "Groups"
+msgstr "المجموعات"
+
+#: contact/admin.py
+msgid "Sender Info"
+msgstr "معلومات المرسل"
+
+#: contact/admin.py contact/models.py
+msgid "Message"
+msgstr "الرسالة"
+
+#: contact/admin.py portfolio/admin.py portfolio/models.py
+msgid "Status"
+msgstr "الحالة"
+
+#: contact/admin.py
+msgid "Sender"
+msgstr "المرسل"
+
+#: contact/admin.py contact/models.py
+msgid "Source"
+msgstr "المصدر"
+
+#: contact/apps.py
+msgid "Contact"
+msgstr "التواصل"
+
+#: contact/models.py
+msgid "Social Media"
+msgstr "وسائل التواصل"
+
+#: contact/models.py
+msgid "Referral"
+msgstr "إحالة"
+
+#: contact/models.py portfolio/models.py
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+#: contact/models.py
+msgid "Other"
+msgstr "أخرى"
+
+#: contact/models.py portfolio/models.py
+msgid "Full Name"
+msgstr "الاسم الكامل"
+
+#: contact/models.py portfolio/models.py
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: contact/models.py
+msgid "Phone"
+msgstr "الهاتف"
+
+#: contact/models.py
+msgid "Read"
+msgstr "مقروءة"
+
+#: contact/models.py portfolio/models.py
+msgid "Created At"
+msgstr "تاريخ الإنشاء"
+
+#: contact/models.py
+msgid "Contact Message"
+msgstr "رسالة تواصل"
+
+#: portfolio/admin.py
+msgid "Media & Status"
+msgstr "الوسائط والحالة"
+
+#: portfolio/admin.py
+msgid "Tag"
+msgstr "الوسم"
+
+#: portfolio/admin.py portfolio/models.py
+msgid "Logo"
+msgstr "الشعار"
+
+#: portfolio/admin.py
+msgid "Preview"
+msgstr "معاينة"
+
+#: portfolio/admin.py portfolio/models.py
+msgid "CV"
+msgstr "السيرة الذاتية"
+
+#: portfolio/admin.py
+msgid "Download"
+msgstr "تحميل"
+
+#: portfolio/apps.py
+msgid "Portfolio"
+msgstr "المحفظة"
+
+#: portfolio/models.py
+msgid "Title (English)"
+msgstr "العنوان (إنجليزي)"
+
+#: portfolio/models.py
+msgid "Title (Arabic)"
+msgstr "العنوان (عربي)"
+
+#: portfolio/models.py
+msgid "Title (Kurdish)"
+msgstr "العنوان (كردي)"
+
+#: portfolio/models.py
+msgid "Excerpt (English)"
+msgstr "المقتطف (إنجليزي)"
+
+#: portfolio/models.py
+msgid "Excerpt (Arabic)"
+msgstr "المقتطف (عربي)"
+
+#: portfolio/models.py
+msgid "Excerpt (Kurdish)"
+msgstr "المقتطف (كردي)"
+
+#: portfolio/models.py
+msgid "Content (English)"
+msgstr "المحتوى (إنجليزي)"
+
+#: portfolio/models.py
+msgid "Content (Arabic)"
+msgstr "المحتوى (عربي)"
+
+#: portfolio/models.py
+msgid "Content (Kurdish)"
+msgstr "المحتوى (كردي)"
+
+#: portfolio/models.py
+msgid "Tag (English)"
+msgstr "الوسم (إنجليزي)"
+
+#: portfolio/models.py
+msgid "Tag (Arabic)"
+msgstr "الوسم (عربي)"
+
+#: portfolio/models.py
+msgid "Tag (Kurdish)"
+msgstr "الوسم (كردي)"
+
+#: portfolio/models.py
+msgid "Image"
+msgstr "الصورة"
+
+#: portfolio/models.py
+msgid "Published Date"
+msgstr "تاريخ النشر"
+
+#: portfolio/models.py
+msgid "Published"
+msgstr "منشور"
+
+#: portfolio/models.py
+msgid "Name"
+msgstr "الاسم"
+
+#: portfolio/models.py
+msgid "Order"
+msgstr "الترتيب"
+
+#: portfolio/models.py
+msgid "Partner"
+msgstr "شريك"
+
+#: portfolio/models.py
+msgid "Caption (English)"
+msgstr "التسمية (إنجليزي)"
+
+#: portfolio/models.py
+msgid "Caption (Arabic)"
+msgstr "التسمية (عربي)"
+
+#: portfolio/models.py
+msgid "Caption (Kurdish)"
+msgstr "التسمية (كردي)"
+
+#: portfolio/models.py
+msgid "Gallery Image"
+msgstr "صورة المعرض"
+
+#: portfolio/models.py
+msgid "Gallery Images"
+msgstr "صور المعرض"
+
+#: portfolio/models.py
+msgid "Open"
+msgstr "مفتوح"
+
+#: portfolio/models.py
+msgid "Closed"
+msgstr "مغلق"
+
+#: portfolio/models.py
+msgid "Location (English)"
+msgstr "الموقع (إنجليزي)"
+
+#: portfolio/models.py
+msgid "Location (Arabic)"
+msgstr "الموقع (عربي)"
+
+#: portfolio/models.py
+msgid "Location (Kurdish)"
+msgstr "الموقع (كردي)"
+
+#: portfolio/models.py
+msgid "Type (English)"
+msgstr "النوع (إنجليزي)"
+
+#: portfolio/models.py
+msgid "Type (Arabic)"
+msgstr "النوع (عربي)"
+
+#: portfolio/models.py
+msgid "Type (Kurdish)"
+msgstr "النوع (كردي)"
+
+#: portfolio/models.py
+msgid "Closing Date"
+msgstr "تاريخ الإغلاق"
+
+#: portfolio/models.py
+msgid "Career"
+msgstr "وظيفة"
+
+#: portfolio/models.py
+msgid "Date of Birth"
+msgstr "تاريخ الميلاد"
+
+#: portfolio/models.py
+msgid "City"
+msgstr "المدينة"
+
+#: portfolio/models.py
+msgid "Governorate"
+msgstr "المحافظة"
+
+#: portfolio/models.py
+msgid "Mobile"
+msgstr "الموبايل"
+
+#: portfolio/models.py
+msgid "Education Level"
+msgstr "المستوى التعليمي"
+
+#: portfolio/models.py
+msgid "Applied At"
+msgstr "تاريخ التقديم"
+
+#: portfolio/models.py
+msgid "Job Application"
+msgstr "طلب توظيف"
+
+#: portfolio/models.py
+msgid "Job Applications"
+msgstr "طلبات التوظيف"

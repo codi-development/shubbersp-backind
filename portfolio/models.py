@@ -54,6 +54,7 @@ class GalleryImage(models.Model):
     caption_ku = models.CharField(_('Caption (Kurdish)'), max_length=300)
 
     image = models.ImageField(_('Image'), upload_to='gallery/')
+    link = models.URLField(_('Link'), max_length=500, blank=True, default='')
     order = models.PositiveIntegerField(_('Order'), default=0)
 
     class Meta:

@@ -1,0 +1,158 @@
+/* ═══════════════════════════════════════════════════
+   RTL fixes for Django Unfold Admin Dashboard
+   Targets Unfold's hardcoded text-left classes
+   ═══════════════════════════════════════════════════ */
+
+/* ─── Override Unfold's hardcoded text-left ─── */
+[dir="rtl"] .text-left {
+    text-align: right !important;
+}
+
+/* Dashboard table captions (التواصل, المحفظة, etc.) */
+[dir="rtl"] caption.text-left {
+    text-align: right !important;
+}
+
+/* Dashboard table header cells (الأخبار, الشركاء, etc.) */
+[dir="rtl"] th.text-left {
+    text-align: right !important;
+}
+
+/* ─── Tables ─── */
+[dir="rtl"] table {
+    direction: rtl;
+}
+
+[dir="rtl"] th,
+[dir="rtl"] td {
+    text-align: right;
+}
+
+/* Table row: model name on right, add button on left */
+[dir="rtl"] tr td:last-child,
+[dir="rtl"] tr th:last-child {
+    text-align: left;
+}
+
+/* ─── Dashboard layout ─── */
+/* Flip the two-column layout (content + recent actions) */
+[dir="rtl"] .colM .flex.lg\:flex-row {
+    flex-direction: row-reverse;
+}
+
+/* ─── Top bar / Header ─── */
+[dir="rtl"] .border-b .flex {
+    direction: rtl;
+}
+
+/* Breadcrumb: المحفظة > الأخبار */
+[dir="rtl"] .flex.items-center.gap-2 svg {
+    transform: scaleX(-1);
+}
+
+/* ─── Sidebar ─── */
+/* Sidebar search placeholder direction */
+[dir="rtl"] nav input[type="text"],
+[dir="rtl"] nav input[type="search"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* ─── Form fields ─── */
+[dir="rtl"] input[type="text"],
+[dir="rtl"] input[type="email"],
+[dir="rtl"] input[type="tel"],
+[dir="rtl"] input[type="url"],
+[dir="rtl"] input[type="number"],
+[dir="rtl"] input[type="password"],
+[dir="rtl"] textarea,
+[dir="rtl"] select {
+    direction: rtl;
+    text-align: right;
+}
+
+/* ─── Fieldsets and labels ─── */
+[dir="rtl"] fieldset {
+    text-align: right;
+}
+
+[dir="rtl"] label {
+    text-align: right;
+}
+
+/* ─── Submit row ─── */
+[dir="rtl"] .submit-row {
+    direction: rtl;
+}
+
+/* ─── Changelist / List view ─── */
+[dir="rtl"] #changelist {
+    direction: rtl;
+}
+
+/* Filter panel position */
+[dir="rtl"] #changelist-filter {
+    float: left;
+    text-align: right;
+}
+
+/* ─── Action bar on list pages ─── */
+[dir="rtl"] .actions {
+    direction: rtl;
+    text-align: right;
+}
+
+/* ─── Object tools (Add button, etc.) ─── */
+[dir="rtl"] .object-tools {
+    float: left;
+    direction: rtl;
+}
+
+/* ─── Pagination ─── */
+[dir="rtl"] .paginator {
+    direction: rtl;
+}
+
+/* ─── Messages / alerts ─── */
+[dir="rtl"] .messagelist li {
+    text-align: right;
+    direction: rtl;
+}
+
+/* ─── Recent actions on dashboard ─── */
+[dir="rtl"] .module.bg-base-50 {
+    text-align: right;
+}
+
+/* ─── Dropdown / popover menus ─── */
+[dir="rtl"] [role="menu"] {
+    text-align: right;
+}
+
+/* ─── Logout and language buttons ─── */
+[dir="rtl"] button.text-left {
+    text-align: right !important;
+}
+
+/* ─── Help text under form fields ─── */
+[dir="rtl"] .help,
+[dir="rtl"] .helptext {
+    text-align: right;
+}
+
+/* ─── Inline related objects ─── */
+[dir="rtl"] .inline-related {
+    direction: rtl;
+    text-align: right;
+}
+
+/* ─── Tab panels (English / العربية / کوردی) ─── */
+[dir="rtl"] [role="tablist"] {
+    direction: rtl;
+}
+
+/* ─── Checkbox & toggle alignment ─── */
+[dir="rtl"] .checkbox-row,
+[dir="rtl"] input[type="checkbox"] + label {
+    direction: rtl;
+}

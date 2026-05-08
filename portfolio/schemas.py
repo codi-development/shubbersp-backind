@@ -23,6 +23,7 @@ class GalleryOut(Schema):
     id: int
     caption: str
     image: str
+    link: str
 
 
 class CareerOut(Schema):

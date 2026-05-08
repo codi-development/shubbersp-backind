@@ -31,6 +31,7 @@ def _localize_gallery(img, lang) -> dict:
         'id': img.id,
         'caption': getattr(img, f'caption_{lang}'),
         'image': img.image.url if img.image else '',
+        'link': img.link or '',
     }
 
 

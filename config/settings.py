@@ -94,6 +94,7 @@ LOCALE_PATHS = [
 # Static & Media
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_DIRS = [BASE_DIR / 'static']
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
@@ -102,7 +103,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS
 CORS_ALLOWED_ORIGINS = os.getenv(
     'CORS_ALLOWED_ORIGINS',
-    'http://localhost:5173,http://localhost:3000'
+    'http://localhost:5173,http://localhost:3000,http://localhost:5174'
 ).split(',')
 
 # Email
@@ -129,7 +130,9 @@ UNFOLD = {
         "ar": "🇮🇶",
     },
     "THEME": "light",
-    "STYLES": [],
+    "STYLES": [
+        lambda request: static("admin/css/rtl-fixes.css"),
+    ],
     "COLORS": {
         "primary": {
             "50": "#FFF7ED",

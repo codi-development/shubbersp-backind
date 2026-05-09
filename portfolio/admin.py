@@ -57,7 +57,7 @@ class PartnerAdmin(ModelAdmin):
 @admin.register(GalleryImage)
 class GalleryImageAdmin(ModelAdmin):
     list_display = ('display_thumbnail', 'caption_en', 'link', 'order')
-    list_editable = ('order',)
+    list_editable = ('link', 'order')
     list_per_page = 20
 
     @admin.display(description=_('Preview'))
